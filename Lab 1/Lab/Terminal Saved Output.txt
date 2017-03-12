@@ -1,0 +1,105 @@
+Last login: Sat Mar 11 22:37:21 on ttys000
+Sravyas-MacBook-Air:~ sravyaganugapati$ python Documents/Umass_Semesters/Spring\ 2017/Distributed\ \&\ Operating\ Systems/Assignment/Lab/main.py
+Creating Pig objects at time  22:37:29
+Registering pig with pigID:  pig.bird.pig1
+Registering pig with pigID:  pig.bird.pig2
+Registering pig with pigID:  pig.bird.pig3
+Registering pig with pigID:  pig.bird.pig4
+Registering pig with pigID:  pig.bird.pig5
+Registering pig with pigID:  pig.bird.pig6
+Connecting to neighbors
+Calling initiator
+In initiator
+['pig.bird.pig1 = 1,1\n', 'pig.bird.pig2 = 1,3\n', 'pig.bird.pig3 = 2,3\n', 'pig.bird.pig4 = 3,2\n', 'pig.bird.pig5 = 3,1\n', 'pig.bird.pig6 = 2,0\n', 'stone1 = 0,3\n', 'stone2 = 2,2\n', 'stone3 = 3,4\n', 'stone4 = 3,0']
+*********Starting*********
+Pig that is initiating is : pig.bird.pig1
+Starting Episode 1 at  22:37:29
+------------------
+Calling bird_approaching message at time  22:37:29
+pig.bird.pig1 : Received bird_approaching message at  22:37:29
+pig.bird.pig1 : Hopcount 6
+pig.bird.pig1 : Hopcount before decrementing 6
+Sending bird_approaching message with hopcount 5  and position  [2, 3]  to my peer pigs
+pig.bird.pig2 : Received bird_approaching message at  22:37:31
+pig.bird.pig2 : Hopcount 5
+pig.bird.pig2 : Hopcount before decrementing 5
+Sending bird_approaching message with hopcount 4  and position  [2, 3]  to my peer pigs
+pig.bird.pig6 : Received bird_approaching message at  22:37:31
+pig.bird.pig6 : Hopcount 5
+pig.bird.pig6 : Hopcount before decrementing 5
+Sending bird_approaching message with hopcount 4  and position  [2, 3]  to my peer pigs
+pig.bird.pig4 : Received bird_approaching message at  22:37:33
+pig.bird.pig4 : Hopcount 4
+pig.bird.pig3 : Received bird_approaching message at  22:37:33
+ pig.bird.pig4  : This position is my neighboring position
+pig.bird.pig3 : Hopcount 4
+pig.bird.pig4 : I changed my position to  3,2
+pig.bird.pig3 : Target position is mine
+pig.bird.pig5 : Received bird_approaching message at  22:37:33
+pig.bird.pig5 : Hopcount 4
+pig.bird.pig5 : Hopcount before decrementing 4
+Sending bird_approaching message with hopcount 3  and position  [2, 3]  to my peer pigs
+pig.bird.pig4 : Received bird_approaching message at  22:37:35
+pig.bird.pig4 : Hopcount 3
+Calling status_all at time  22:37:38
+status_all_senders ['pig.bird.pig1']
+status_all_replies_pigID ['pig.bird.pig1']
+status_all_replies_flag [False]
+Calling status(pigID) at time  22:37:38
+Sending status( pig.bird.pig3 ) message to my peers to reach  pig.bird.pig3 .
+Out of episode 1 at time  22:37:38
+Sleeping for 10 seconds
+Pig ID  Pig ID  pig.bird.pig6 's status is  False
+pig.bird.pig2 's status is  False
+Pig ID  pig.bird.pig2 's status is  False
+ Pig ID  pig.bird.pig6 's status is  False
+After sleep
+Starting Episode 2 at  22:37:58
+------------------
+Calling bird_approaching message at time  22:37:58
+pig.bird.pig1 : Received bird_approaching message at  22:37:58
+pig.bird.pig1 : Hopcount 3
+pig.bird.pig1 : Hopcount before decrementing 3
+Sending bird_approaching message with hopcount 2  and position  [1, 3]  to my peer pigs
+pig.bird.pig2 : Received bird_approaching message at  22:38:00
+pig.bird.pig2 : Hopcount 2
+pig.bird.pig6 : Received bird_approaching message at  22:38:00
+pig.bird.pig6 : Hopcount 2
+pig.bird.pig2 : Target position is mine
+pig.bird.pig6 : Hopcount before decrementing 2
+Sending bird_approaching message with hopcount 1  and position  [1, 3]  to my peer pigs
+pig.bird.pig5 : Received bird_approaching message at  22:38:02
+pig.bird.pig5 : Hopcount 1
+pig.bird.pig5 : Hopcount before decrementing 1
+Sending bird_approaching message with hopcount 0  and position  [1, 3]  to my peer pigs
+Calling status_all at time  22:38:07
+status_all_senders ['pig.bird.pig1']
+status_all_replies_pigID ['pig.bird.pig1']
+status_all_replies_flag [False]
+Calling status(pigID) at time  22:38:07
+Pig ID  pig.bird.pig1 's status is  False
+Out of episode 2 at time  22:38:07
+Sleeping for 10 seconds
+Starting Episode 3 at  22:38:17
+------------------
+Calling bird_approaching message at time  22:38:17
+pig.bird.pig1 : Received bird_approaching message at  22:38:17
+pig.bird.pig1 : Hopcount 5
+pig.bird.pig1 : Hopcount before decrementing 5
+Sending bird_approaching message with hopcount 4  and position  [4, 3]  to my peer pigs
+pig.bird.pig6 : Received bird_approaching message at  22:38:19
+pig.bird.pig6 : Hopcount 4
+pig.bird.pig6 : Hopcount before decrementing 4
+Sending bird_approaching message with hopcount 3  and position  [4, 3]  to my peer pigs
+pig.bird.pig5 : Received bird_approaching message at  22:38:21
+pig.bird.pig5 : Hopcount 3
+pig.bird.pig5 : Hopcount before decrementing 3
+Sending bird_approaching message with hopcount 2  and position  [4, 3]  to my peer pigs
+Calling status_all at time  22:38:26
+status_all_senders ['pig.bird.pig1']
+status_all_replies_pigID ['pig.bird.pig1']
+status_all_replies_flag [False]
+Calling status(pigID) at time  22:38:26
+Pig ID  pig.bird.pig1 's status is  False
+Out of episode 2 at time  22:38:26
+
