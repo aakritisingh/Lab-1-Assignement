@@ -1,0 +1,10 @@
+pig.bird.pig1 = 1,1
+pig.bird.pig2 = 1,3
+pig.bird.pig3 = 2,3
+pig.bird.pig4 = 3,3
+pig.bird.pig5 = 3,1
+pig.bird.pig6 = 2,0
+stone1 = 0,3
+stone2 = 2,2
+stone3 = 3,4
+stone4 = 3,0
